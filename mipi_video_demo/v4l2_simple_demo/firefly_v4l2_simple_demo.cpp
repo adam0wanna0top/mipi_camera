@@ -56,6 +56,7 @@ static int silent=0;
 
 static char dev_name[255]="/dev/video0";
 static int width = 640;
+static int width = 640;
 static int height = 480;
 static enum v4l2_buf_type buf_type = V4L2_BUF_TYPE_VIDEO_CAPTURE;
 static int iformat = V4L2_PIX_FMT_NV12;
