@@ -1,0 +1,3 @@
+/home/firefly/rkisp-v4l2/mipi_video_demo/v4l2_simple_demo/build/CMakeFiles/rebuild_cache.dir
+/home/firefly/rkisp-v4l2/mipi_video_demo/v4l2_simple_demo/build/CMakeFiles/edit_cache.dir
+/home/firefly/rkisp-v4l2/mipi_video_demo/v4l2_simple_demo/build/CMakeFiles/opencv4_demo.dir

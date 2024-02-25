@@ -1,0 +1,21 @@
+INCLUDE = $(shell pkg-config --cflags opencv4)
+LIBS = $(shell pkg-config --libs opencv4)
+
+BIN = opencv4
+OBJECTS = firefly_v4l2_simple_demo.o
+SOURCES = firefly_v4l2_simple_demo.cpp
+
+$(BIN): $(OBJECTS)
+    g++ -o $(BIN) $(OBJECTS) $(LIBS)
+
+$(OBJECTS): $(SOURCES)
+    g++ -c $(SOURCES) $(INCLUDE)
+
+clean:
+    rm $(OBJECTS) $(BIN)
+
+
+
+#opencv头文件在/usr/include/opencv4/opencv2
+#opencv库文件在/usr/lib/aarch64-linux-gnu
+#要make的文件在/home/firefly/rkisp-v4l2/mipi_video_demo/v4l2_simple_demo
